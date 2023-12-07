@@ -1,0 +1,313 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 2s;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(157, 205, 109);
+}
+.iteml p{
+  margin-left: 2rem;
+font-size: 26px;
+color: black;
+padding-right: 5px;
+border-right: 3px solid black;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif
+}
+.itemr ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+ul li a{
+  text-transform: uppercase;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  transition: all ease 0.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a:hover{
+  border-bottom: 2px solid black;
+}
+
+.hero{
+  background-image: url(restro.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.hero h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+.hero p{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+.hero button{
+background-color: rgb(157, 205, 109);
+  width: 8rem;
+  height: 3rem;
+border-radius: 20px;
+font-size: 25px;
+font-weight: bold;
+}
+.aboutus{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 3rem;
+  height: 400px;
+  width: 100vw;
+ gap: 5px;
+ background-color: rgba(193, 211, 226, 0.554);
+}
+.leftabt{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2rem;
+
+}
+.leftabt h2{
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+.leftabt p{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.rightabt img{
+  transform: translateX(-30%);
+width: 100%;
+height: 100%;
+background-size: contain;
+border-radius: 15px;
+}
+
+
+.food{
+  height: 100px;
+}
+.foodtyp{
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+}
+.foodtyp p{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.foodtyp .box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.box img{
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 5px gray;
+}
+.menu{
+ 
+  height: 550px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+.menu h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.menu .item{
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+.item img{
+  width: 7rem;
+  height: auto;
+  border-radius: 30px;
+}
+.cstmr{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.cstmr p{
+font-size: 2rem;
+}
+.crp{
+  display: flex;
+  gap: 2rem;
+
+}
+.crp1 , .crp2 ,.crp3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.crp1 img , .crp2 img, .crp3 img{
+  width: 40%;
+  height: auto;
+  border-radius: 130px;
+  background-size: cover;
+}
+.crp1 p, .crp2 p, .crp3 p{
+  font-size: 25px;
+
+}
+
+.contact{
+ margin-top: 2rem;
+  height: 400px;
+  width: 100vw;
+  
+  padding: 3rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact img{
+  height: 100%;
+  width: auto;
+  border-radius: 15px;
+  border-radius: 15px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  35px 35px 70px #656565,
+             -35px -35px 70px #ffffff;
+}
+.details{
+  transform: translateX(-20%);
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  
+  gap: 1rem;
+  flex-direction: column;
+}
+.details h3{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.details .in{
+  display: flex;
+  flex-direction: column;
+  grid-area: 0.7rem;
+}
+.in input {
+  width: 100%;
+  height: 2rem;
+  padding-left: 1rem;
+border: 1px solid black;
+  border-radius: 43px;
+
+background: #ffffff;
+box-shadow:  22px 22px 44px #c7c6c6,
+             -22px -22px 44px #ffffff;
+}
+.in textarea{
+border-radius: 10px;
+background: #ffffff;
+padding-left: 1rem;
+box-shadow:  22px 22px 44px #c7c6c6,
+             -22px -22px 44px #ffffff;
+}
+.details button{
+  transform: translateX(200%);
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(157, 205, 109);
+  border-radius: 10px;
+  border-radius: 50px;
+  border-radius: 67px;
+ 
+  box-shadow:  9px 9px 18px #5a5a5a,
+               -9px -9px 18px #ffffff;
+}
+.f{
+  height: 100px;
+}
+
+@media (max-width: 430px) {
+  body{
+    width: 100vw;
+    height: auto;
+  }
+  .iteml p{
+    font-size: 8px;
+  }
+  .aboutus{
+    width: 100vw;
+    height: 200px;
+  }
+  .aboutus .leftabt{
+    gap: 0.5rem;
+  }
+  .aboutus .rightabt{
+    height: 140px;
+    width: auto;
+   
+  }
+.leftabt h2{
+  font-size: 0.5rem;
+}
+.leftabt p{
+  font-size: 0.7rem;
+  margin-top: 0px;
+}
+.cstmr .crp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.crp .crp1,.crp .crp2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -5%;
+
+}
+.crp1 .rew{
+  font-size: 15px;
+  text-align: center;
+
+}
+}
