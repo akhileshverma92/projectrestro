@@ -265,32 +265,48 @@ box-shadow:  22px 22px 44px #c7c6c6,
   height: 100px;
 }
 
-@media (max-width: 320px) {
-  body{
+@media (max-width: 480px) {
+  nav{
     width: 100vw;
-    height: auto;
   }
   .iteml p{
-    font-size: 8px;
+    font-size: 15px;
+  }
+  .itemr a{
+    font-size: 10px;
+  }
+  .hero{
+    height: 700px;
+  }
+  .hero h2{
+    font-size: 35px;
+  }
+  .hero p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .aboutus{
     width: 100vw;
-    height: 200px;
+    height: 270px;
   }
   .aboutus .leftabt{
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .aboutus .rightabt{
-    height: 140px;
-    width: auto;
+    height: auto;
+    width: 45%;
+    transform: translateX(40%);
    
   }
 .leftabt h2{
-  font-size: 0.5rem;
+  font-size: 0.9rem;
 }
 .leftabt p{
   font-size: 0.7rem;
   margin-top: 0px;
+}
+.cstmr{
+  width: 100vw;
 }
 .cstmr .crp{
   display: flex;
@@ -310,4 +326,27 @@ box-shadow:  22px 22px 44px #c7c6c6,
   text-align: center;
 
 }
+.foodtyp{
+  display: flex;
+  height: 900px;
+
+}
+.foodtyp .box{
+  display: flex;
+  flex-direction: column;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  transform: translateX(18%);
+}
+.contact img{
+  opacity: 0;
+  height: 0px ;
+  width: 0px;
+}
+.contact .details {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
 }
