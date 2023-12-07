@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="restro.css">
-  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-  <div class="container" id="home">
+  <div class="container" id="home" data-aos="fade-up">
     <nav>
       <div class="iteml">
         <p>RESTRO</p>
@@ -24,14 +24,14 @@
       </div>
     </nav>
     <!-- hero section -->
-    <div class="hero" >
+    <div class="hero" data-aos="fade-up">
       <h2>EAT RIGHT FOOD</h2>
       <p>Eat Healty , it is good for our health</p>
       <button onclick=window.location.href="#menu">MENU</button>
 </div>
 
   </div>
-  <div class="aboutus">
+  <div class="aboutus" data-aos="fade-left">
     <div class="leftabt">
       <h3>ABOUT US</h3>
 <h2>We've been making healthy food last for 10 years</h2>
@@ -41,7 +41,7 @@
 <img src="food.avif" alt="">
     </div>
   </div>
-  <div class="foodtyp" id="3">
+  <div class="foodtyp" id="3" data-aos="fade-right"> 
    <p>Types Of Food</p>
    <div class="box">
    <img src="f1.jpg" alt="">
@@ -50,7 +50,7 @@
 
    </div>
   </div>
-  <div class="menu" id="menu">
+  <div class="menu" id="menu" data-aos="fade-left" >
     <h1>MENU</h1>
     <div class="menuitem">
     <div class="item">
@@ -87,7 +87,7 @@
     </div>
   </div>
   </div>
-  <div class="cstmr">
+  <div class="cstmr" data-aos="fade-right">
 <p>What our customers say</p>
 <div class="crp">
   <div class="crp1">
@@ -151,6 +151,10 @@
     function loc(){
 window.location.href="#menu"
     }
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 
