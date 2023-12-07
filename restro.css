@@ -265,7 +265,7 @@ box-shadow:  22px 22px 44px #c7c6c6,
   height: 100px;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 320px) {
   body{
     width: 100vw;
     height: auto;
